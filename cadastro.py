@@ -8,7 +8,7 @@ layout = [
     [sg.Button('Entrar')]
 ]
 #janela
-janela = sg.Window('Tela de login',layout)
+janela = sg.Window('Login',layout)
 #ler eventos
 while True:
    eventos, valores = janela.read()
